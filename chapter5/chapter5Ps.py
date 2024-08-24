@@ -38,9 +38,46 @@
 # print(set1)            #q4
 # sdf
 
-set2 = set()
 
-set2.add(20)
-set2.add(20.0)
-set2.add('20')
-print(set2 , len(set2))
+# set2 = set()
+
+# set2.add(20)
+# set2.add(20.0)
+# set2.add('20')
+# print(set2 , len(set2))   # q5     ans 2-element
+
+
+# s ={}
+# print(type(s))    # q6  ans dict
+
+
+
+dic  = {}
+# k1 = input()
+# v1 = input()
+# k2 = input()
+# v2 = input()
+# k3 = input()
+# v3 = input()
+# k4 = input()
+# v4 = input()
+# dic.update({k1: v1, k2: v2, k3: v3, k4: v4})        # q6    solution 1
+
+# name = input("enter name here ")
+# lang = input("enter language " )
+# dic.update({name: lang})
+# name = input("enter name here ")
+# lang = input("enter language ")
+# dic.update({name: lang})
+# name = input("enter name here ")
+# lang = input("enter language ")
+# dic.update({name: lang})
+# name = input("enter name here ")
+# lang = input("enter language ")
+# dic.update({name: lang})      # q6 and 7
+
+
+
+
+print(dic)
+
