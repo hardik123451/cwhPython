@@ -38,22 +38,18 @@
 # print(slist)       #q2
 
 
-# my_tuple = (1,23,4,6,3,1)
-# my_tuple[1] = 24
-# print(my_tuple)   #q3
+# my_tuple = (1,4,23,1,)
+# my_tuple[1] = 5
+# print(my_tuple)    #q3
 
 
 
+# liist = [1,2,3,4]
 
-# sumList = [ 1,2,3,4]
+# print(sum(liist))    # q4
 
-# abcd = sumList[0]+sumList[1]+sumList[2]+sumList[3]
-
-# print(sum(sumList))    # q4
 
 
 a = (7,0,8,0,0,9)
 
 print(a.count(0))
-
-

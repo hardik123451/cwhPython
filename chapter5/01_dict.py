@@ -23,8 +23,9 @@ marks = {
 }
 
 
-# print(marks.values())
+print(marks.items())
 
-marks.update({"hardik": 99})
+# marks.update({"hardik": 99})
 
-print(marks)
+# print(marks)
+
