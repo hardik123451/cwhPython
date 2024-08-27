@@ -98,19 +98,92 @@
 
 
 
-# q9  print star pattern
-# * * *
-# *   *
-# * * *
-n = int(input())
-for i in range( 1, n+1):
-    if(n%i == 0):
-        print("*","*"*(i%2),"*")
-    else:
-        print("*", " ", "*")  #my answer
+# # q9  print star pattern
+# # * * *
+# # *   *
+# # * * *
 
-# for i in range( 1, n+1):
-#     if(i == 1):
+# n = int(input())
+
+# for i in range(1, n+1):
+#     if(i == 1 or i == n):
+#         print("*"*n)
+#     else:
+#         print("*",end="")
+#         print(" "*(n-2),end="")
+#         print("*")
+
+
+
+# q10    multiplication table of n number
+
+n = int(input())
+
+# i = 10
+# while(i>0):
+#     print(f"{n} X {i} = {n*i}")
+#     i = i - 1
+
+for i in range(1, 11):
+    print(f"{n} X {11-i} = {n*(11-i)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
